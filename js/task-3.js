@@ -3,7 +3,7 @@ class StringBuilder {
     this.value = initialValue;
   }
 
-  value = '';
+  #value = '';
 
   getValue() {
     return this.value;

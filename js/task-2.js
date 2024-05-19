@@ -3,7 +3,7 @@ class Storage {
     this.items = items;
   }
 
-  items = [];
+  #items = [];
 
   getItems() {
     return this.items;
